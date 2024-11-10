@@ -1,0 +1,49 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Lie Detector</title>
+
+    <!-- Link to Google Fonts for Professional Typography -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet" />
+
+    <!-- Link to Bootstrap or custom CSS for the layout -->
+    <link href="~/css/site.css" rel="stylesheet" />
+</head>
+<body>
+
+    <!-- Header with Navigation -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="~/images/logo.png" />
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="@Url.Action("Index", "Home")">Home</a></li>
+                    <li><a href="@Url.Action("Privacy", "Home")" class="btn">Privacy Policy</a></li> <!-- Privacy Button -->
+                    <li><a href="@Url.Action("Services", "Home")" class="btn">Our Services</a></li> <!-- Services Button -->
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="content">
+        @RenderBody() <!-- This renders the body of each view -->
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Lie Detector Corp. All Rights Reserved.</p>
+            <div class="footer-links">
+                <a href="@Url.Action("Privacy", "Home")">Privacy Policy</a> <!-- Privacy Link in Footer -->
+                <a href="@Url.Action("Services", "Home")">Services</a> <!-- Services Link in Footer -->
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

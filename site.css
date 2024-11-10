@@ -1,0 +1,114 @@
+/* General Reset for Consistency */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f5f5f5; /* Light grey background for corporate feel */
+    color: #333; /* Dark text for readability */
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header Styles */
+header {
+    background-color: #003366; /* Corporate blue */
+    color: white;
+    padding: 15px 0;
+}
+
+.logo-img {
+    height: 50px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+    nav ul li {
+        margin-left: 30px;
+    }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-weight: 500;
+        }
+
+            nav ul li a:hover {
+                color: #ffcc00; /* Highlight on hover */
+            }
+
+/* Main Content Styles */
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    padding: 50px 0;
+}
+
+/* Glassmorphism for Centered Forms */
+.glass {
+    background: rgba(255, 255, 255, 0.2); /* Semi-transparent white */
+    border-radius: 15px;
+    backdrop-filter: blur(8px); /* Apply background blur */
+    padding: 40px;
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Form Styles */
+input[type="number"], button {
+    margin-bottom: 20px;
+    padding: 12px;
+    width: 100%;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    background-color: #003366;
+    color: white;
+    cursor: pointer;
+}
+
+    button:hover {
+        background-color: #ffcc00; /* CTA button hover color */
+    }
+
+input[type="number"] {
+    background-color: #e6f1ff;
+    color: #003366;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+}
+
+    footer .footer-links {
+        margin-top: 10px;
+    }
+
+        footer .footer-links a {
+            color: #ffcc00;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+
+            footer .footer-links a:hover {
+                color: white;
+            }

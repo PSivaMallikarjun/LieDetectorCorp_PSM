@@ -1,0 +1,154 @@
+﻿@{
+    Layout = null;  // This will ignore the default layout and use this page as a standalone page
+    ViewData["Title"] = "Our Services - Lie Detector";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+        }
+
+        nav {
+            background-color: #444;
+            padding: 0.5rem;
+            text-align: center;
+        }
+
+        nav a {
+            color: #fff;
+            padding: 0.5rem 1rem;
+            text-decoration: none;
+            margin: 0 0.5rem;
+        }
+
+        nav a:hover {
+            background-color: #575757;
+        }
+
+        .content {
+            padding: 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: #333;
+            text-align: center;
+        }
+
+        h3 {
+            color: #333;
+            margin-top: 1.5rem;
+        }
+
+        p {
+            color: #666;
+            font-size: 1.1rem;
+            margin-bottom: 1.5rem;
+        }
+
+        ul {
+            margin: 0;
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 0.5rem;
+        }
+
+        footer {
+            text-align: center;
+            background-color: #333;
+            color: #fff;
+            padding: 1rem 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .btn {
+            display: inline-block;
+            background-color: #333;
+            color: white;
+            padding: 0.8rem 1.5rem;
+            text-decoration: none;
+            border-radius: 5px;
+            text-align: center;
+        }
+
+        .btn:hover {
+            background-color: #575757;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>Lie Detector Corp.</h1>
+    </header>
+
+    <!-- Navigation Section -->
+    <nav>
+        <a href="/">Home</a>
+        <a href="/Home/Services">Services</a>
+        <a href="/Home/Contact">Contact</a>
+    </nav>
+
+    <!-- Main Content Section -->
+    <div class="content">
+        <h2>Our Services</h2>
+        <p>At Lie Detector Corp., we offer advanced lie detection services using state-of-the-art physiological technology. Our services help individuals and organizations verify truthfulness through heart rate, blood pressure, GSR, and more.</p>
+
+        <h3>1. Polygraph Lie Detection</h3>
+        <p>We use a traditional polygraph to measure heart rate, blood pressure, respiratory rate, and GSR to detect deception. This method is trusted by law enforcement, security, and businesses.</p>
+
+        <h3>2. Heart Rate & GSR Based Lie Detection</h3>
+        <p>A non-invasive method using heart rate and GSR to detect signs of deception. Ideal for quick assessments and remote testing.</p>
+
+        <h3>3. Corporate & Legal Services</h3>
+        <p>We offer services for employee background verification, legal case support, and fraud detection. Our objective analysis helps organizations make informed decisions.</p>
+
+        <h3>4. Remote Lie Detection</h3>
+        <p>Take the test from home with secure online heart rate and GSR monitoring. Get real-time results without needing to be in-person.</p>
+
+        <h3>5. Custom Solutions</h3>
+        <p>Need a tailored solution? We offer customized services for businesses, legal cases, or personal consultations.</p>
+
+        <h3>Why Choose Us?</h3>
+        <ul>
+            <li><strong>Proven Accuracy:</strong> Scientifically validated methods.</li>
+            <li><strong>Confidentiality:</strong> We protect your privacy at all times.</li>
+            <li><strong>Professionalism:</strong> Expert analysis from certified professionals.</li>
+            <li><strong>Convenience:</strong> Both in-person and remote testing options.</li>
+        </ul>
+
+        <h3>Get Started Today</h3>
+        <p>Contact us today to schedule your lie detection test, whether for personal use, corporate evaluations, or legal matters.</p>
+        <p><a href="/Home/Contact" class="btn">Contact Us for More Information</a></p>
+    </div>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Lie Detector Corp. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>

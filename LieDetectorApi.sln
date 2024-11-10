@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LieDetectorApi", "LieDetectorApi.csproj", "{718C6B37-4C11-4525-A47D-27C7ED8A5926}"
+	ProjectSection(ProjectDependencies) = postProject
+		{916EF9D4-A3D3-4337-8B89-F83991B00227} = {916EF9D4-A3D3-4337-8B89-F83991B00227}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LieDetectorWebApp", "..\LieDetectorWebApp\LieDetectorWebApp.csproj", "{916EF9D4-A3D3-4337-8B89-F83991B00227}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LieDetectorWebApp.Tests", "..\LieDetectorWebApp.Tests\LieDetectorWebApp.Tests.csproj", "{1F4973E1-8C98-4E2E-9B8A-051546EE8868}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Class Library (.NET Core)", "..\Class Library (.NET Core)\Class Library (.NET Core).csproj", "{38292D04-77A2-4DFD-9EFE-BF14B19EC6BB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{718C6B37-4C11-4525-A47D-27C7ED8A5926}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{718C6B37-4C11-4525-A47D-27C7ED8A5926}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{718C6B37-4C11-4525-A47D-27C7ED8A5926}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{718C6B37-4C11-4525-A47D-27C7ED8A5926}.Release|Any CPU.Build.0 = Release|Any CPU
+		{916EF9D4-A3D3-4337-8B89-F83991B00227}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{916EF9D4-A3D3-4337-8B89-F83991B00227}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{916EF9D4-A3D3-4337-8B89-F83991B00227}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{916EF9D4-A3D3-4337-8B89-F83991B00227}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F4973E1-8C98-4E2E-9B8A-051546EE8868}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F4973E1-8C98-4E2E-9B8A-051546EE8868}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F4973E1-8C98-4E2E-9B8A-051546EE8868}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F4973E1-8C98-4E2E-9B8A-051546EE8868}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38292D04-77A2-4DFD-9EFE-BF14B19EC6BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38292D04-77A2-4DFD-9EFE-BF14B19EC6BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38292D04-77A2-4DFD-9EFE-BF14B19EC6BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38292D04-77A2-4DFD-9EFE-BF14B19EC6BB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3B5499B6-80D0-4FD3-81B7-CBB07BEDC95D}
+	EndGlobalSection
+EndGlobal

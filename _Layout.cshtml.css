@@ -1,0 +1,77 @@
+﻿/* Welcome Page Styling */
+.welcome-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 80vh;
+    padding: 20px;
+}
+
+    .welcome-container h2 {
+        font-size: 2.5rem;
+        font-weight: 600;
+        margin-bottom: 20px;
+    }
+
+    .welcome-container p {
+        font-size: 1.1rem;
+        line-height: 1.8;
+        margin-bottom: 20px;
+        text-align: justify;
+    }
+
+/* Glassmorphism Card for Introduction */
+.glass {
+    background: rgba(255, 255, 255, 0.1); /* Semi-transparent white */
+    border-radius: 15px;
+    backdrop-filter: blur(8px); /* Apply background blur */
+    padding: 40px;
+    width: 100%;
+    max-width: 800px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    margin-bottom: 30px;
+}
+
+    .glass h3 {
+        font-size: 1.8rem;
+        font-weight: 600;
+        margin-bottom: 15px;
+    }
+
+    .glass p {
+        font-size: 1.1rem;
+        line-height: 1.6;
+        color: #f5f5f5;
+    }
+
+/* Button Group */
+.button-group {
+    text-align: center;
+}
+
+.btn-primary {
+    background-color: #003366;
+    color: white;
+    border-radius: 5px;
+    padding: 12px 25px;
+    font-size: 18px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+    .btn-primary:hover {
+        background-color: #ffcc00; /* Hover color */
+        color: #003366;
+    }
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .welcome-container {
+        width: 90%;
+    }
+
+    .glass {
+        padding: 30px;
+    }
+}

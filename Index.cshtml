@@ -1,0 +1,28 @@
+﻿@{
+    ViewData["Title"] = "Lie Detector - Home";
+}
+
+<h2 class="text-center">Welcome to the Lie Detector System</h2>
+
+<!-- Glassmorphism Effect Container in the Center -->
+<div class="glass">
+    <h3>Submit your data for analysis</h3>
+
+    <!-- Form for submitting Heart Rate and GSR data -->
+    <form method="post" asp-action="SubmitData">
+        <div class="form-container">
+            <label for="heartRate">Heart Rate:</label>
+            <input type="number" id="heartRate" name="heartRate" required placeholder="Enter your heart rate" />
+        </div>
+
+        <div class="form-container">
+            <label for="gsr">Galvanic Skin Response (GSR):</label>
+            <input type="number" id="gsr" name="gsr" required placeholder="Enter your GSR" />
+        </div>
+
+        <div class="button-group">
+            <button type="submit" class="btn btn-primary">Submit</button>
+            <button type="reset" class="btn btn-secondary">Reset</button>
+        </div>
+    </form>
+</div>
