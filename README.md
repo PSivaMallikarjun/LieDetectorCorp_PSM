@@ -28,11 +28,13 @@ This project provides a comprehensive lie detection solution utilizing physiolog
 - **Corporate and Legal Support:** Background checks, fraud detection, and case evaluation.
 
 ## Screenshots
-### Web Interface:
-![Dashboard](assets/dashboard.png)
+### Web In![Screenshot 2024-11-09 233050](https://github.com/user-attachments/assets/5964521f-78b9-4758-af97-420d89837307)
+terface:
+![Dashboard]()
 
 ### Testing Results:
-![NUnit Tests](assets/nunit_results.png)
+![NUnit Tests]()![Screenshot 2024-11-09 224555](https://github.com/user-attachments/assets/3ccc1d6b-0d10-4b07-b8ba-6c5e157de4ae)
+
 ## Installation
 
 1. Clone the repository:
